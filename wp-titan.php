@@ -8,16 +8,16 @@
  * License: This plug has the licenses to thrill.
  *
  * @usage
- * <? do_shortcode('[sm_titan'); ?>
- * <? smTitan_func(array(...)); ?>
- * <? smTitan::this(array(..))->..();?>
+ * <? do_shortcode('[wp_titan'); ?>
+ * <? wpTitan_func(array(...)); ?>
+ * <? wpTitan::this(array(..))->..();?>
  */
 
 /* Extend this class if you need it,
  * write your custom models and views
  * in the folders provided.
  */
-class smTitan {
+class wpTitan {
 
 	private static $_instance = null;
 
@@ -52,9 +52,9 @@ class smTitan {
  *
  * @param Array $att
  */
-function smTitan_func($att) {
+function wpTitan_func($att) {
 	smTypeHelper::this($att)->{$att['helper']}();
-} add_shortcode( 'smTitan', 'smTitan_func' );
+} add_shortcode( 'wpTitan', 'wpTitan_func' );
 
 /**
  * Auto load a classes when needed
