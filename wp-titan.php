@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Wordpress Titan
- * Description: The Wordpress Titan project is the first of its king to offer a sub OOP framework for wordpress.
+ * Description: The Wordpress Titan project is the first of its kind to offer a OOP framework from within Wordpress.
  * Version: 2.0
  * Author: Levi Thornton
  * Author URI: www.linkedin.com/in/levithornton
