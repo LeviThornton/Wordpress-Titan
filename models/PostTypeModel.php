@@ -14,7 +14,7 @@
  *  ?>
  * </code>
  */
-class PostTypeModel extends smTitan {
+class PostTypeModel extends wpTitan {
 
   public static $types;
 

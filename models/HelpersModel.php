@@ -1,5 +1,5 @@
 <?php
-class HelpersModel extends smTitan {
+class HelpersModel extends wpTitan {
 
   public function depluralize($word)
   {
