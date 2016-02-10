@@ -1,8 +1,10 @@
 <?php
 // add post types
 // PostTypeModel::$types = array(
-//   'menu_1',
-//   'menu_2'
+//   'Wood Fence',
+//   'Vinyl Fence',
+//   'Aluminum Fence',
+//   'Chain Link Fence'
 //   );
 
 // PostTypeModel::_init();
